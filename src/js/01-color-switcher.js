@@ -3,7 +3,7 @@ const stopBtn = document.querySelector('[data-stop]');
 const body = document.querySelector('body');
 let timerId = null;
 
-if (timerId === 0) {
+if (timerId === null) {
   stopBtn.setAttribute('disabled', 'disabled');
 }
 

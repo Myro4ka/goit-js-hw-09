@@ -3,7 +3,6 @@ import "flatpickr/dist/flatpickr.min.css";
 import Notiflix from 'notiflix';
 
 const getEl = selector => document.querySelector(selector);
-// const timerFields = document.querySelectorAll('.timer .value');
 
 const startBtn = getEl('[data-start]');
 startBtn.setAttribute('disabled', 'disabled');
